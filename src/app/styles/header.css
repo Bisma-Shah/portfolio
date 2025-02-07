@@ -1,0 +1,67 @@
+/* General header styling */
+.header {
+  height: 63px;
+  width: 897px;
+  padding: 10px 20px; /* Reduced padding to make header more compact */
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1f2937;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between; /* Space between title and navbar */
+  align-items: center;
+}
+
+/* Title styling */
+.title {
+  padding-left: 8px; /* Adjust left padding for alignment */
+  font-size: 1.25rem; /* Font size adjustment */
+  font-weight: 700;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  gap: 15px; /* Increase space between links */
+  justify-content: center; /* Center the links */
+  align-items: center;
+}
+
+/* Individual nav-link styling */
+.nav-link {
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Styling for hover effect on links */
+.nav-link:hover {
+  color: #9da2a6; /* Color change on hover */
+}
+
+/* Styling for the Visit Github link */
+.github-link {
+  height: 40px;
+  width: 123px; /* Adjust width */
+  padding: 8px 10px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #9542dd;
+  text-decoration: none; /* Remove underline */
+  margin-right: 8px; /* Add left margin to align the button */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the Visit Github button */
+.github-link:hover {
+  background-color: #a35be7; /* Darker color on hover */
+}

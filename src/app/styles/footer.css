@@ -1,0 +1,59 @@
+/* Footer Background and Text Color */
+.footer {
+    background-color: #1e2734; /* Equivalent to bg-gray-800 */
+    color: #e2e8f0; /* Equivalent to text-gray-300 */
+    padding: 16px 0; /* py-4 */
+  }
+  
+  /* Center Content */
+  .footer-container {
+    max-width: 1200px;
+    height: 19vh;
+    margin: 0 auto;
+    padding: 0 16px; /* Equivalent to px-4 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Main Heading */
+  .footer-heading {
+    font-weight: 600; /* Equivalent to font-semibold */
+    font-size: 17px;
+    margin-top: 22px; /* mt-3 */
+  }
+  
+  /* Social Media Links */
+  .social-links{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 15px;
+    gap: 16px;
+    line-height: 32px;
+}
+
+.social-links .icon {
+  font-size: 20px;
+  color: white !important;
+}
+
+.social-links .icon:hover {
+  color: #6B7280; 
+}
+
+
+  /* Copyright Text */
+  .footer-copyright {
+    font-size: 12px; /* Equivalent to text-xs */
+    display: flex;
+    align-items: center;
+    gap: 4px; /* space-x-1 */
+    margin-top: 12px; /* mt-3 */
+  }
+  
+  /* Copyright Icon */
+  .footer-icon {
+    font-size: 12px; /* Similar to text-xs */
+  }
